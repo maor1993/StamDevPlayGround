@@ -1,0 +1,66 @@
+06:47:10 **** Rebuild of configuration Debug for project usblib ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\usbd_core.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_core.o 
+In file included from ..\src\usbd_core.c:18:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32l052_devfs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32l052_devfs.o 
+In file included from ..\src\usbd_stm32l052_devfs.c:19:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+..\src\usbd_stm32l052_devfs.c:24:6: warning: #warning PMA memory size is not defined. Use 1k by default [-Wcpp]
+     #warning PMA memory size is not defined. Use 1k by default
+      ^~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m0 -IC:\Projects\STAMDEV\usblib\inc -g -Wa,--warn -x assembler-with-cpp -specs=nano.specs -o src\usbd_stm32l100_devfs_asm.o ..\src\usbd_stm32l100_devfs_asm.S 
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32f103_devfs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32f103_devfs.o 
+In file included from ..\src\usbd_stm32f103_devfs.c:20:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32l433_devfs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32l433_devfs.o 
+In file included from ..\src\usbd_stm32l433_devfs.c:19:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m0 -IC:\Projects\STAMDEV\usblib\inc -g -Wa,--warn -x assembler-with-cpp -specs=nano.specs -o src\usbd_stm32f103_devfs_asm.o ..\src\usbd_stm32f103_devfs_asm.S 
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32f429_otghs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32f429_otghs.o 
+In file included from ..\src\usbd_stm32f429_otghs.c:19:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32l476_otgfs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32l476_otgfs.o 
+In file included from ..\src\usbd_stm32l476_otgfs.c:19:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32f429_otgfs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32f429_otgfs.o 
+In file included from ..\src\usbd_stm32f429_otgfs.c:19:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m0 -IC:\Projects\STAMDEV\usblib\inc -g -Wa,--warn -x assembler-with-cpp -specs=nano.specs -o src\usbd_stm32l052_devfs_asm.o ..\src\usbd_stm32l052_devfs_asm.S 
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32f105_otgfs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32f105_otgfs.o 
+In file included from ..\src\usbd_stm32f105_otgfs.c:20:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-gcc -c ..\src\usbd_stm32l100_devfs.c -mthumb -mcpu=cortex-m0 -std=gnu11 -DSTM32F042x6 -DSTM32F0 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -IC:\Projects\STAMDEV\usblib\inc -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Projects\STAMDEV\usblib\Drivers\CMSIS\Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usbd_stm32l100_devfs.o 
+In file included from ..\src\usbd_stm32l100_devfs.c:19:0:
+C:\Projects\STAMDEV\usblib\inc/usb.h:22:0: warning: "STM32F042x6" redefined
+ #define STM32F042x6
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-atollic-eabi-ar -r libusblib.a src\usbd_core.o src\usbd_stm32f103_devfs.o src\usbd_stm32f103_devfs_asm.o src\usbd_stm32f105_otgfs.o src\usbd_stm32f429_otgfs.o src\usbd_stm32f429_otghs.o src\usbd_stm32l052_devfs.o src\usbd_stm32l052_devfs_asm.o src\usbd_stm32l100_devfs.o src\usbd_stm32l100_devfs_asm.o src\usbd_stm32l433_devfs.o src\usbd_stm32l476_otgfs.o 
+
+06:47:12 Build Finished (took 2s.51ms)
+

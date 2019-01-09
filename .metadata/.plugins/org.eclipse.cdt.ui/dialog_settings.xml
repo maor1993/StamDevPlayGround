@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="libusblib" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
+	<item value="Default C source template" key="LastUsedSourceTemplate"/>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item value="false" key="caseSensitive"/>
+		<item value="227191" key="searchFlags"/>
+		<list key="previousPatterns">
+			<item value="calloc"/>
+		</list>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="0" key="askReindex.detail"/>
+		<item value="true" key="askReindex"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+</section>
